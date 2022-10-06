@@ -66,4 +66,7 @@
     <ClCompile Include="..\ext\zlib-ng\uncompr.c" />
     <ClCompile Include="..\ext\zlib-ng\zutil.c" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
 </Project>

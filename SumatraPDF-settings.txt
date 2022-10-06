@@ -1,0 +1,672 @@
+﻿# For documentation, see https://www.sumatrapdfreader.org/settings/settings3-4-6.html
+FixedPageUI [
+	TextColor = #eeeeee
+	BackgroundColor = #0d2545">…</p>
+	SelectionColor = #11ee11
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+	GradientColors = #6e00ff #4e00ff #0023ff #006eff #2200ff
+	HideScrollbars = true
+]
+ComicBookUI [
+	WindowMargin = 0 0 0 0
+	PageSpacing = 4 4
+	CbxMangaMode = false
+	TextColor = #eeeeee
+	BackgroundColor = #0e9001
+	SelectionColor = #00ee00
+]
+ChmUI [
+	UseFixedPageUI = true
+]
+
+SelectionHandlers [
+]
+ExternalViewers [
+]
+
+ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
+ZoomIncrement = 0
+
+PrinterDefaults [
+	PrintScale = fit
+]
+ForwardSearch [
+	HighlightOffset = 0
+	HighlightWidth = 15
+	HighlightColor = #0c110b
+	HighlightPermanent = false
+]
+Annotations [
+	HighlightColor = #eacbed
+	UnderlineColor = #00ff00
+	TextIconColor = #ffffff
+	TextIconType = 
+	DefaultAuthor = 
+]
+
+RememberOpenedFiles = false
+RememberStatePerDocument = true
+RestoreSession = true
+UiLanguage = en
+InverseSearchCmdLine = notepad %f
+EnableTeXEnhancements = true
+DefaultDisplayMode = single page
+DefaultZoom = fit page
+Shortcuts [
+]
+EscToExit = false
+ReuseInstance = false
+ReloadModifiedDocuments = true
+
+MainWindowBackground = #90cdff
+FullPathInTitle = false
+ShowMenubar = true
+ShowToolbar = true
+ShowFavorites = true
+ShowToc = true
+TocDy = 0
+SidebarDx = 347
+ToolbarSize = 18
+TabWidth = 100
+TreeFontSize = 20
+SmoothScroll = false
+ShowStartPage = true
+CheckForUpdates = true
+WindowState = 2
+WindowPos = 774 323 976 547
+UseTabs = true
+UseSysColors = false
+CustomScreenDPI = 183
+
+FileStates [
+	[
+		FilePath = H:\Textbooks\FirstAid\0. First Aid Step 1 2022.pdf
+		Favorites [
+			[
+				Name = Biochemistry
+				PageNo = 78
+				PageLabel = 57
+			]
+			[
+				Name = Apgar score
+				PageNo = 679
+				PageLabel = 658
+			]
+		]
+		IsPinned = true
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\FirstAid\First Aid for the Basic Sciences - Tao Le, MD.pdf
+		Favorites [
+			[
+				Name = Basic sci
+				PageNo = 1
+				PageLabel = Cover
+			]
+			[
+				Name = TRISOMIES
+				PageNo = 196
+				PageLabel = 181
+			]
+		]
+		IsPinned = true
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = E:\OneDrive - American University of the Caribbean School of Medicine\Term 1\MCQs\Exam 2\Taco Corp FTM 1 Genetic Review DP_JM.pdf
+		Favorites [
+			[
+				Name = GNET Rev
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = E:\OneDrive - American University of the Caribbean School of Medicine\Term 1\Embryo\OLM 10.2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\Biostat_Epidem\Gordis Epidemiology (David D. Celentano, Moyses Szklo) (z-lib.org).pdf
+		Favorites [
+			[
+				PageNo = 0
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = true
+	]
+	[
+		FilePath = E:\OneDrive - American University of the Caribbean School of Medicine\Cumulative\Genetic Disorders SGU Ace_BPM Complete.pdf
+		Favorites [
+			[
+				Name = Diseases
+				PageNo = 1
+			]
+			[
+				Name = Genetic principles
+				PageNo = 6
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = true
+	]
+	[
+		FilePath = E:\OneDrive - American University of the Caribbean School of Medicine\Term 1\MCQs\SNL DES SGU BPM I FTM (I_II) (Answers).pdf
+		Favorites [
+			[
+				Name = SNL ans
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = true
+	]
+	[
+		FilePath = E:\OneDrive - American University of the Caribbean School of Medicine\Exams\SNL DES SGU BPM II FTM-1 Exam.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = true
+	]
+	[
+		FilePath = E:\OneDrive - American University of the Caribbean School of Medicine\Term 1\Biomolecules\MCB 16 Molecular Biology DNA Damage, Mutation and Repair.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 5
+		UseDefaultState = true
+	]
+	[
+		FilePath = E:\OneDrive - American University of the Caribbean School of Medicine\Term 1\Biomolecules\MCB 15 Regulation of Gene Expression.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 6
+		UseDefaultState = true
+	]
+	[
+		FilePath = E:\OneDrive - American University of the Caribbean School of Medicine\Term 1\Biomolecules\MCB 13_14 Amino Acids and Enzymes.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 6
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\Mneumonics\Mnemonics and Study Tips for Medical Students, Two Zebras Borrowed My Car (A Hodder Arnold Publication) - 2nd edition (Khalid Khan) (z-lib.org).pdf
+		Favorites [
+			[
+				Name = Mneumonics
+				PageNo = 1
+				PageLabel = Cover
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 7
+		UseDefaultState = true
+	]
+	[
+		FilePath = E:\OneDrive - American University of the Caribbean School of Medicine\Term 1\Biomolecules\MCB Unit 3.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = ?:\OneDrive - American University of the Caribbean School of Medicine\Term 1\Behavioral\Lifespan & Development OLM 1_to_8.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 7
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\GNET_Biomolec\2 Genetics A Conceptual Approach (Benjamin A. Pierce).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = ?:\OneDrive - American University of the Caribbean School of Medicine\Term 1\Biomolecules\MCB-10_11 DNA Replication(E3).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\jepst\OneDrive\Desktop\OLM 17.01 RNA Metabolism.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = E:\OneDrive - American University of the Caribbean School of Medicine\Term 1\Biomolecules\OLM 18_19 Amino Acids and Proteins.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\jepst\OneDrive\Desktop\OLM 18.01 Amino Acids and Proteins.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\Biostat_Epidem\Biostatistics The Bare Essentials (Geoffrey R. Norman, David L. Sreiner) (z-lib.org).epub
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = true
+	]
+	[
+		FilePath = ?:\Textbooks\Biostat_Epidem\1. Mahajan’s Methods for Medical Students and Research Workers (Arun Bhadra Khanal) (z-lib.org).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 5
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\Biostat_Epidem\Epidemiology  study design and data analysis (Woodward, Mark) (z-lib.org).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\Biostat_Epidem\Epidemiology and Biostatistics An Introduction to Clinical Research (Bryan Kestenbaum) (z-lib.org).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\Biostat_Epidem\Essentials of Research Design and Methodology (Geoffrey R. Marczyk, David DeMatteo etc.) (z-lib.org).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\jepst\Downloads\New Clinical Genetics, fourth edition (Andrew Read, Dian Donnai) .pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = ?:\Textbooks\GNET_Biomolec\Thompson  Thompson Genetics in Medicine (Robert L. Nussbaum, Roderick R. McInnes etc.) (z-lib.org).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\OneDrive - American University of the Caribbean School of Medicine\Keiff\NBME\NBME 25 Answers Version.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = E:\$$GU\BPM 501 Lectures\week 12.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = E:\OneDrive - American University of the Caribbean School of Medicine\Term 1\GNET\MCB Nucleic Acids and Epigenetics.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\OneDrive - American University of the Caribbean School of Medicine\Term 1\GNET\OLM 11.01 Genes and Genomes-1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\OneDrive - American University of the Caribbean School of Medicine\Term 1\GNET\12.01 Nucleic Acids and Epigenetics.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\OneDrive - American University of the Caribbean School of Medicine\Term 1\GNET\Cell cycle1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = E:\OneDrive - American University of the Caribbean School of Medicine\Term 1\MCQs\Exam 2\Term1_practice questions.docx.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Review DOcs\Z2.2C N lesions.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\GNET_Biomolec\Genetics A Conceptual Approach (Benjamin A. Pierce) (z-lib.org).epub
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\langmans-medical-embryology-12th-ed.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = ?:\OneDrive - American University of the Caribbean School of Medicine\gnt.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Review DOcs\$$$$NB2 onit redux.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\OneDrive - American University of the Caribbean School of Medicine\Term 1\Behavioral\Table Reviews (2).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\Mnemonics and Study Tips for Medical Students (Khalid Khan) .epub
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\NB 2\Lectures\NB2 Psych.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\Mneumonics\Mnemonics for Sure Success in PG Medical Entrance Examinations (Atun Kumar) (z-lib.org).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\$$_Cumulative\Crush Step 1 The Ultimate USMLE Step 1 Review by Theodore X. O’Connell, Ryan A. Pedigo, Thomas E. Blair (z-lib.org) 8.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\NB 2\Review\NB2 Topic Reviews.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\$$_Cumulative\3. USMLE Step 1 Secrets in Color, 4e.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\GNET_Biomolec\Schaums Easy Outline Molecular and Cell Biology (William Stansfield, Raul Cano, jaime Colome) (z-lib.org).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\GNET_Biomolec\Human Genetics and Genomics - John Wiley & Sons, Inc._002482.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\OneDrive - American University of the Caribbean School of Medicine\Exams\MTM E1 what I got wrong.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\GNET_Biomolec\Genetics A Conceptual Approach (Benjamin A. Pierce) (z-lib.org).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\GNET_Biomolec\Schaums Outline of Genetics (William D. Stansfield, William Stansfield).djvu
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\GNET_Biomolec\Cell and Molecular Biology (Lippincott’s Illustrated Reviews) (Nalini Chandar, Susan Viselli) (z-lib.org).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\GNET_Biomolec\Science Genetics Crash Course (Schaums Easy Outlines) (William Stansfield, ed Hademenos) (z-lib.org).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\BRS\BRS Biochemistry, Molecular Biology, and Genetics ( PDFDrive.com ).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\Lippencott Rubin pathology questions.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\High Yield\High-yield embryology (Ronald W. Dudek).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\Embryology  an illustrated colour text (B  S Mitchell R Sharma Robert Britton) (z-lib.org).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\Crash Course\Crash Course Cell biology and genetics  Matt Stubbs, BSc.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\Clinical Anatomy Made Ridiculously Simple (Medmaster) (Stephen Goldberg) (z-lib.org).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\FIRST AID FOR THE USMLE STEP 1 2022. (TAO LE) (z-lib.org).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+]
+SessionData [
+]
+TimeOfLastUpdateCheck = 0 0
+OpenCountWeek = 613
+
+# Settings below are not recognized by the current version
+EbookUI [
+	FontName = Times New Roman
+	FontSize = 30
+	TetColor = #5f4b32
+	BackgroundColor = #fbf0d9
+	UseFixedPageUI = false
+]
+AssociateSilently = false

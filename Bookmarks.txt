@@ -1,0 +1,634 @@
+FileStates [
+	[
+		FilePath = K:\OneDrive - St. George's University\BPM 2\0.0BPM 2 Cum Resources\$$_NB1 Wont Quit.pdf
+		Favorites [
+			[
+				Name = NB1
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -9 0 1453 1513
+		ShowToc = true
+		SidebarDx = 225
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = ?:\OneDrive - American University of the Caribbean School of Medicine\Keiff\American Academy of Pediatrics textbook of pediatric care (Thomas K. McInerny (editor)) (z-lib.org).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 323
+		Zoom = 75
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -9 0 1453 1513
+		ShowToc = true
+		SidebarDx = 225
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 21
+	]
+	[
+		FilePath = ?:\Textbooks\Psych\American Academy of Pediatrics Textbook of Pediatric Care (Thomas K. McInerny, Henry M. Adam etc.) (z-lib.org).chm
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -9 0 1453 1513
+		ShowToc = true
+		SidebarDx = 225
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1
+	]
+	[
+		FilePath = ?:\Neuro_Behavior Module\NB 2\Review\NB2 Topic Reviews.pdf
+		Favorites [
+			[
+				Name = SGU NB2 Topic rev
+				PageNo = 1
+			]
+			[
+				PageNo = 14
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -9 0 1453 1513
+		ShowToc = false
+		SidebarDx = 225
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = ?:\Neuro_Behavior Module\NB 2\Lectures\NB2 Psych.pdf
+		Favorites [
+			[
+				Name = Psych
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -9 0 1453 1513
+		ShowToc = true
+		SidebarDx = 225
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = ?:\Neuro_Behavior Module\ESoft\NB2 Esoft old.pdf
+		Favorites [
+			[
+				Name = NB ESoft Quiz 7.pdf
+				PageNo = 37
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 37
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -9 0 1453 1513
+		ShowToc = true
+		SidebarDx = 225
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = ?:\Neuro_Behavior Module\NB 2\Review\Maham's Golden Notes - Head & Neck.pdf
+		Favorites [
+			[
+				Name = Head and Neck
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -9 0 1453 1513
+		ShowToc = false
+		SidebarDx = 225
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = ?:\Neuro_Behavior Module\needawin\NB dump Combined_.pdf
+		Favorites [
+			[
+				Name = NB2 dump
+				PageNo = 24
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 24
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -9 0 1453 1513
+		ShowToc = true
+		SidebarDx = 225
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = ?:\Neuro_Behavior Module\Review DOcs\NB2 final.pdf
+		Favorites [
+			[
+				Name = NB2 final
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -9 0 1453 1513
+		ShowToc = true
+		SidebarDx = 225
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = ?:\Neuro_Behavior Module\Review DOcs\The CNs.pdf
+		Favorites [
+			[
+				Name = Cranial Review
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 400
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -9 0 1453 1513
+		ShowToc = true
+		SidebarDx = 437
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\jepst\OneDrive - St. George's University\BPM 2\NB\Lectures\week 14.pdf
+		Favorites [
+			[
+				Name = Speech
+				PageNo = 28
+			]
+			[
+				Name = thought process
+				PageNo = 34
+			]
+			[
+				Name = Operant Extinction
+				PageNo = 103
+			]
+			[
+				Name = Behavior therapy
+				PageNo = 105
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 36
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -9 0 1453 1513
+		ShowToc = true
+		SidebarDx = 437
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = ?:\Neuro_Behavior Module\needawin\MASTER.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 12
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -697 -2160 1489 1926
+		ShowToc = false
+		SidebarDx = 274
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = ?:\kioskUser0\Documents\The CNs.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -9 0 1453 1513
+		ShowToc = true
+		SidebarDx = 437
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Review\Neuro Gold Notes_Complete (large notes packet).pdf
+		Favorites [
+			[
+				Name = TOC
+				PageNo = 1
+				PageLabel = i
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -697 -2160 1489 1926
+		ShowToc = true
+		SidebarDx = 274
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\Textbooks\Psych\CURRENT Diagnosis  Treatment Psychiatry, Second Edition (LANGE CURRENT Series) (Michael H. Ebert, Peter T. Loosen etc.) (z-lib.org).chm
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = 0 0
+		PageNo = 14
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 571 0 1114 1443
+		ShowToc = true
+		SidebarDx = 274
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Review DOcs\CN lesions.pdf
+		Favorites [
+			[
+				Name = Lesions
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 50
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 571 0 1114 1443
+		ShowToc = true
+		SidebarDx = 274
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Review DOcs\NB2 onit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 50
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 571 0 1114 1443
+		ShowToc = true
+		SidebarDx = 274
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Review DOcs\NB2 onit.pdf
+		Favorites [
+			[
+				Name = NB2
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 50
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 571 0 1114 1443
+		ShowToc = true
+		SidebarDx = 274
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Review DOcs\NB2.pdf
+		Favorites [
+			[
+				Name = NB 2 Consolidated
+				PageNo = 2
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 570 0 1115 1444
+		ShowToc = true
+		SidebarDx = 274
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\NB 2\ITI And Clickers\NB51-52.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 132.501 3180.5
+		PageNo = 2
+		Zoom = 50
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 570 0 1115 1444
+		ShowToc = false
+		SidebarDx = 274
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\NB 2\Review\Consolidate NB2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 15
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 570 0 1115 1444
+		ShowToc = true
+		SidebarDx = 274
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\NB 2\Lectures\Week 11_12 (NB2).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 135
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 570 0 1115 1444
+		ShowToc = true
+		SidebarDx = 274
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Lectures\Weekly lectures S21\Neuroimaging.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 173.372
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 570 0 1115 1444
+		ShowToc = true
+		SidebarDx = 274
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\jepst\OneDrive - St. George's University\BPM 2\NB\Lectures\week 14.pdf
+		Favorites [
+			[
+				Name = Speech
+				PageNo = 28
+			]
+			[
+				Name = thought process
+				PageNo = 34
+			]
+			[
+				Name = Operant Extinction
+				PageNo = 103
+			]
+			[
+				Name = Behavior therapy
+				PageNo = 105
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 28
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 571 0 1114 1443
+		ShowToc = true
+		SidebarDx = 274
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\kioskUser0\Downloads\NB2 onit redux.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 7
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -9 0 1453 1513
+		ShowToc = true
+		SidebarDx = 437
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\jepst\Downloads\NBII Review 2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -9 0 1453 1513
+		ShowToc = false
+		SidebarDx = 437
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\jepst\AppData\Local\Temp\SumatraPDF\SumatraPDF-settings.txt
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous book view
+		ScrollPos = -1 144.186
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -697 -2160 1489 1926
+		ShowToc = true
+		SidebarDx = 274
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+]
+SessionData [
+]
+TimeOfLastUpdateCheck = 0 0
+OpenCountWeek = 610
+
+# Settings below are not recognized by the current version

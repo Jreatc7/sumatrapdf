@@ -1,0 +1,812 @@
+Crash file: K:\Textbooks\SumatraPDF-3.4.6-64\crashinfo\sumatrapdfcrash.txt
+Exe: K:\Textbooks\SumatraPDF-3.4.6-64\SumatraPDF-3.4.6-64.exe 12.98 MB (13,605,336 Bytes)
+BuiltOn: 2022-06-08
+Type: static
+Ver: 3.4.6 64-bit
+Git: 7a19622d5ad35702dad2694cca4873693e88bc4e (https://github.com/sumatrapdfreader/sumatrapdf/commit/7a19622d5ad35702dad2694cca4873693e88bc4e)
+OS: Windows 10 build 25201 64-bit
+Number Of Processors: 8
+Processor: 11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz
+Physical Memory: 15.85 GB
+Commit Charge Limit: 31.85 GB
+Memory Used: 71%
+Machine: Surface 124I:00061T:000M:0100000D:0B:05F:1C:01P:16Y:1U:00S:0
+Lang: en US
+
+Exception: C0000005 ACCESS_VIOLATION
+Faulting IP: 00007FF7EACE773D 01:000000000003673D sumatrapdf-3.4.6-64.exe!FavTreeContextMenu+0x10d C:\Users\kjk\src\sumatrapdf\src\Favorites.cpp+808
+Fault reading address 0000000000000000
+
+Registers:
+RAX:0000000000000000  RBX:0000000000000000  RCX:000000F47BB3E520
+RDX:000002785228E800  RSI:00000278603D64D0  RDI:0000000000F41077
+R8: FFFFFFFFFFFFFFFF
+R9: 00000278523F6D70
+R10:0000000000000000
+R11:0000000000000000
+R12:0000000000000000
+R13:0000000000000000
+R14:0000000000250FC8
+R15:0000000000000000
+CS:RIP:0033:00007FF7EACE773D
+SS:RSP:002B:000000007BB3E4E0  RBP:006008B4
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00010286
+
+Crashed thread:
+00007FF7EACE773D 01:000000000003673D sumatrapdf-3.4.6-64.exe!FavTreeContextMenu+0x10d C:\Users\kjk\src\sumatrapdf\src\Favorites.cpp+808
+00007FF7EAD31081 01:0000000000080081 sumatrapdf-3.4.6-64.exe!Handle_WM_CONTEXTMENU+0xd5 C:\Users\kjk\src\sumatrapdf\src\wingui\Window.cpp+579
+00007FF7EAD304BA 01:000000000007F4BA sumatrapdf-3.4.6-64.exe!HandleRegisteredMessages+0xc2 C:\Users\kjk\src\sumatrapdf\src\wingui\Window.cpp+175
+00007FF7EACE77BD 01:00000000000367BD sumatrapdf-3.4.6-64.exe!WndProcFavBox+0x51 C:\Users\kjk\src\sumatrapdf\src\Favorites.cpp+824
+00007FF8F0120C8E 01:000000000001FC8E user32.dll!DispatchMessageW+0x7ee
+00007FF8F0120132 01:000000000001F132 user32.dll!SendMessageW+0x382
+00007FF8F011FEE7 01:000000000001EEE7 user32.dll!SendMessageW+0x137
+00007FF8E3172753 01:00000000000B1753 comctl32.dll!TaskDialogIndirect+0x1f343
+00007FF8E3174305 01:00000000000B3305 comctl32.dll!TaskDialogIndirect+0x20ef5
+00007FF8F0120C8E 01:000000000001FC8E user32.dll!DispatchMessageW+0x7ee
+00007FF8F012042B 01:000000000001F42B user32.dll!CallWindowProcW+0x8b
+00007FF8E30D7E92 01:0000000000016E92 comctl32.dll!DefSubclassProc+0x162
+00007FF8E30D7DB8 01:0000000000016DB8 comctl32.dll!DefSubclassProc+0x88
+00007FF7EAD30B4D 01:000000000007FB4D sumatrapdf-3.4.6-64.exe!wndProcSubclassed+0x5d C:\Users\kjk\src\sumatrapdf\src\wingui\Window.cpp+493
+00007FF8E30D7E92 01:0000000000016E92 comctl32.dll!DefSubclassProc+0x162
+00007FF8E30D7C77 01:0000000000016C77 comctl32.dll!DSA_InsertItem+0x8a7
+00007FF8F0120C8E 01:000000000001FC8E user32.dll!DispatchMessageW+0x7ee
+00007FF8F01206A1 01:000000000001F6A1 user32.dll!DispatchMessageW+0x201
+00007FF7EAD18C8A 01:0000000000067C8A sumatrapdf-3.4.6-64.exe!RunMessageLoop+0x1c2 C:\Users\kjk\src\sumatrapdf\src\SumatraStartup.cpp+554
+00007FF7EAD1AA81 01:0000000000069A81 sumatrapdf-3.4.6-64.exe!WinMain+0x12e5 C:\Users\kjk\src\sumatrapdf\src\SumatraStartup.cpp+1375
+00007FF7EB04D09E 01:000000000039C09E sumatrapdf-3.4.6-64.exe!__scrt_common_main_seh+0x106 D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl+288
+00007FF8F053458D 01:000000000001358D kernel32.dll!BaseThreadInitThunk+0x1d
+00007FF8F1E97558 01:0000000000066558 ntdll.dll!RtlUserThreadStart+0x28
+
+Thread: 4208
+00007FF8F1ED1694 01:00000000000A0694 ntdll.dll!NtWaitForSingleObject+0x14
+00007FF8EF8A93AE 01:00000000000483AE kernelbase.dll!WaitForSingleObjectEx+0x8e
+00007FF7EACDAA6B 01:0000000000029A6B sumatrapdf-3.4.6-64.exe!DumpExceptionHandler+0xaf C:\Users\kjk\src\sumatrapdf\src\CrashHandler.cpp+434
+00007FF8EF9B2A9C 01:0000000000151A9C kernelbase.dll!UnhandledExceptionFilter+0x1ec
+00007FF8F1EDB337 01:00000000000AA337 ntdll.dll!memcpy+0x3177
+00007FF8F1EC18E7 01:00000000000908E7 ntdll.dll!_C_specific_handler+0x97
+00007FF8F1ED66EF 01:00000000000A56EF ntdll.dll!_chkstk+0x12f
+00007FF8F1E6D0AF 01:000000000003C0AF ntdll.dll!RtlGetExtendedContextLength2+0x38f
+00007FF8F1ED56EE 01:00000000000A46EE ntdll.dll!KiUserExceptionDispatcher+0x2e
+00007FF7EACE773D 01:000000000003673D sumatrapdf-3.4.6-64.exe!FavTreeContextMenu+0x10d C:\Users\kjk\src\sumatrapdf\src\Favorites.cpp+808
+00007FF7EAD31081 01:0000000000080081 sumatrapdf-3.4.6-64.exe!Handle_WM_CONTEXTMENU+0xd5 C:\Users\kjk\src\sumatrapdf\src\wingui\Window.cpp+579
+00007FF7EAD304BA 01:000000000007F4BA sumatrapdf-3.4.6-64.exe!HandleRegisteredMessages+0xc2 C:\Users\kjk\src\sumatrapdf\src\wingui\Window.cpp+175
+00007FF7EACE77BD 01:00000000000367BD sumatrapdf-3.4.6-64.exe!WndProcFavBox+0x51 C:\Users\kjk\src\sumatrapdf\src\Favorites.cpp+824
+00007FF8F0120C8E 01:000000000001FC8E user32.dll!DispatchMessageW+0x7ee
+00007FF8F0120132 01:000000000001F132 user32.dll!SendMessageW+0x382
+00007FF8F011FEE7 01:000000000001EEE7 user32.dll!SendMessageW+0x137
+00007FF8E3172753 01:00000000000B1753 comctl32.dll!TaskDialogIndirect+0x1f343
+00007FF8E3174305 01:00000000000B3305 comctl32.dll!TaskDialogIndirect+0x20ef5
+00007FF8F0120C8E 01:000000000001FC8E user32.dll!DispatchMessageW+0x7ee
+00007FF8F012042B 01:000000000001F42B user32.dll!CallWindowProcW+0x8b
+00007FF8E30D7E92 01:0000000000016E92 comctl32.dll!DefSubclassProc+0x162
+00007FF8E30D7DB8 01:0000000000016DB8 comctl32.dll!DefSubclassProc+0x88
+00007FF7EAD30B4D 01:000000000007FB4D sumatrapdf-3.4.6-64.exe!wndProcSubclassed+0x5d C:\Users\kjk\src\sumatrapdf\src\wingui\Window.cpp+493
+00007FF8E30D7E92 01:0000000000016E92 comctl32.dll!DefSubclassProc+0x162
+00007FF8E30D7C77 01:0000000000016C77 comctl32.dll!DSA_InsertItem+0x8a7
+00007FF8F0120C8E 01:000000000001FC8E user32.dll!DispatchMessageW+0x7ee
+00007FF8F01206A1 01:000000000001F6A1 user32.dll!DispatchMessageW+0x201
+00007FF7EAD18C8A 01:0000000000067C8A sumatrapdf-3.4.6-64.exe!RunMessageLoop+0x1c2 C:\Users\kjk\src\sumatrapdf\src\SumatraStartup.cpp+554
+00007FF7EAD1AA81 01:0000000000069A81 sumatrapdf-3.4.6-64.exe!WinMain+0x12e5 C:\Users\kjk\src\sumatrapdf\src\SumatraStartup.cpp+1375
+00007FF7EB04D09E 01:000000000039C09E sumatrapdf-3.4.6-64.exe!__scrt_common_main_seh+0x106 D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl+288
+00007FF8F053458D 01:000000000001358D kernel32.dll!BaseThreadInitThunk+0x1d
+00007FF8F1E97558 01:0000000000066558 ntdll.dll!RtlUserThreadStart+0x28
+
+Thread: 236c
+00007FF8F1ED1694 01:00000000000A0694 ntdll.dll!NtWaitForSingleObject+0x14
+00007FF8EF8A93AE 01:00000000000483AE kernelbase.dll!WaitForSingleObjectEx+0x8e
+00007FF7EACFCACD 01:000000000004BACD sumatrapdf-3.4.6-64.exe!RenderCache::RenderCacheThread+0xb5 C:\Users\kjk\src\sumatrapdf\src\RenderCache.cpp+641
+00007FF8F053458D 01:000000000001358D kernel32.dll!BaseThreadInitThunk+0x1d
+00007FF8F1E97558 01:0000000000066558 ntdll.dll!RtlUserThreadStart+0x28
+
+Thread: 3858
+00007FF8F1ED2164 01:00000000000A1164 ntdll.dll!ZwWaitForMultipleObjects+0x14
+00007FF8EF8C43A9 01:00000000000633A9 kernelbase.dll!WaitForMultipleObjectsEx+0xe9
+00007FF7EAECBEC2 01:000000000021AEC2 sumatrapdf-3.4.6-64.exe!FileWatcherThread+0x6e C:\Users\kjk\src\sumatrapdf\src\utils\FileWatcher.cpp+302
+00007FF8F053458D 01:000000000001358D kernel32.dll!BaseThreadInitThunk+0x1d
+00007FF8F1E97558 01:0000000000066558 ntdll.dll!RtlUserThreadStart+0x28
+
+Thread: 2ca0
+00007FF8F1ED52A4 01:00000000000A42A4 ntdll.dll!NtWaitForWorkViaWorkerFactory+0x14
+00007FF8F1E51B3D 01:0000000000020B3D ntdll.dll!TpPostWork+0xd9d
+00007FF8F053458D 01:000000000001358D kernel32.dll!BaseThreadInitThunk+0x1d
+00007FF8F1E97558 01:0000000000066558 ntdll.dll!RtlUserThreadStart+0x28
+
+Thread: 566c
+00007FF8F1ED2164 01:00000000000A1164 ntdll.dll!ZwWaitForMultipleObjects+0x14
+00007FF8EF8C43A9 01:00000000000633A9 kernelbase.dll!WaitForMultipleObjectsEx+0xe9
+00007FF8F06A74ED 01:00000000000B64ED combase.dll!CoRegisterInitializeSpy+0x177d
+00007FF8F06A735A 01:00000000000B635A combase.dll!CoRegisterInitializeSpy+0x15ea
+00007FF8F06A715B 01:00000000000B615B combase.dll!CoRegisterInitializeSpy+0x13eb
+00007FF8F06A63F9 01:00000000000B53F9 combase.dll!CoRegisterInitializeSpy+0x689
+00007FF8F053458D 01:000000000001358D kernel32.dll!BaseThreadInitThunk+0x1d
+00007FF8F1E97558 01:0000000000066558 ntdll.dll!RtlUserThreadStart+0x28
+
+Thread: 4538
+00007FF8EF3BADF4 01:0000000000009DF4 win32u.dll!NtUserMsgWaitForMultipleObjectsEx+0x14
+00007FF8F1D1FB31 01:000000000001EB31 shcore.dll!SHTaskPoolQueueTask+0x3201
+00007FF8F1D1C712 01:000000000001B712 shcore.dll!Ordinal189+0x662
+00007FF8F1D3BFF1 01:000000000003AFF1 shcore.dll!Ordinal186+0x1c1
+00007FF8F053458D 01:000000000001358D kernel32.dll!BaseThreadInitThunk+0x1d
+00007FF8F1E97558 01:0000000000066558 ntdll.dll!RtlUserThreadStart+0x28
+
+Thread: 47d8
+00007FF8F1ED52A4 01:00000000000A42A4 ntdll.dll!NtWaitForWorkViaWorkerFactory+0x14
+00007FF8F1E51B3D 01:0000000000020B3D ntdll.dll!TpPostWork+0xd9d
+00007FF8F053458D 01:000000000001358D kernel32.dll!BaseThreadInitThunk+0x1d
+00007FF8F1E97558 01:0000000000066558 ntdll.dll!RtlUserThreadStart+0x28
+
+Module: 00007FF7EACB0000 D0F000 SumatraPDF-3.4.6-64.exe K:\Textbooks\SumatraPDF-3.4.6-64\SumatraPDF-3.4.6-64.exe
+Module: 00007FF8F1E30000 219000 ntdll.dll        C:\WINDOWS\SYSTEM32\ntdll.dll
+Module: 00007FF8F0520000 0C2000 KERNEL32.DLL     C:\WINDOWS\System32\KERNEL32.DLL
+Module: 00007FF8EF860000 39D000 KERNELBASE.dll   C:\WINDOWS\System32\KERNELBASE.dll
+Module: 00007FF8EBC10000 096000 apphelp.dll      C:\WINDOWS\SYSTEM32\apphelp.dll
+Module: 00007FF8F0100000 1AC000 USER32.dll       C:\WINDOWS\System32\USER32.dll
+Module: 00007FF8EF3B0000 026000 win32u.dll       C:\WINDOWS\System32\win32u.dll
+Module: 00007FF8EFC00000 029000 GDI32.dll        C:\WINDOWS\System32\GDI32.dll
+Module: 00007FF8E30C0000 291000 COMCTL32.dll     C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.25201.1000_none_78477d855aaef99f\COMCTL32.dll
+Module: 00007FF8EF4F0000 112000 gdi32full.dll    C:\WINDOWS\System32\gdi32full.dll
+Module: 00007FF8F1B50000 0A7000 msvcrt.dll       C:\WINDOWS\System32\msvcrt.dll
+Module: 00007FF8EF680000 09A000 msvcp_win.dll    C:\WINDOWS\System32\msvcp_win.dll
+Module: 00007FF8EF3E0000 109000 ucrtbase.dll     C:\WINDOWS\System32\ucrtbase.dll
+Module: 00007FF8F1C00000 0F2000 COMDLG32.dll     C:\WINDOWS\System32\COMDLG32.dll
+Module: 00007FF8F05F0000 389000 combase.dll      C:\WINDOWS\System32\combase.dll
+Module: 00007FF8F0300000 127000 RPCRT4.dll       C:\WINDOWS\System32\RPCRT4.dll
+Module: 00007FF8F1D00000 0ED000 shcore.dll       C:\WINDOWS\System32\shcore.dll
+Module: 00007FF8D1090000 09F000 WINSPOOL.DRV     C:\WINDOWS\SYSTEM32\WINSPOOL.DRV
+Module: 00007FF8F1510000 05D000 SHLWAPI.dll      C:\WINDOWS\System32\SHLWAPI.dll
+Module: 00007FF8F0A30000 7DC000 SHELL32.dll      C:\WINDOWS\System32\SHELL32.dll
+Module: 00007FF8EFF10000 0AE000 ADVAPI32.dll     C:\WINDOWS\System32\ADVAPI32.dll
+Module: 00007FF8F0980000 0A6000 sechost.dll      C:\WINDOWS\System32\sechost.dll
+Module: 00007FF8F12F0000 19D000 ole32.dll        C:\WINDOWS\System32\ole32.dll
+Module: 00007FF8F0430000 0D8000 OLEAUT32.dll     C:\WINDOWS\System32\OLEAUT32.dll
+Module: 00007FF8EFD10000 031000 IMM32.DLL        C:\WINDOWS\System32\IMM32.DLL
+Module: 00007FF8EC130000 0A9000 uxtheme.dll      C:\WINDOWS\system32\uxtheme.dll
+Module: 00007FF8EC5A0000 02D000 dwmapi.dll       C:\WINDOWS\system32\dwmapi.dll
+Module: 00007FF8F1570000 008000 normaliz.dll     C:\WINDOWS\System32\normaliz.dll
+Module: 00007FF8ECA10000 231000 dbghelp.dll      C:\WINDOWS\system32\dbghelp.dll
+Module: 00007FF8E3560000 032000 dbgcore.DLL      C:\WINDOWS\SYSTEM32\dbgcore.DLL
+Module: 00007FF8D98C0000 1B9000 gdiplus.dll      C:\WINDOWS\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.25201.1000_none_a932706ab541736d\gdiplus.dll
+Module: 00007FF8E5800000 007000 msimg32.dll      C:\WINDOWS\system32\msimg32.dll
+Module: 00007FF8D8BD0000 1F3000 urlmon.dll       C:\WINDOWS\system32\urlmon.dll
+Module: 00007FF8D8910000 2B7000 iertutil.dll     C:\WINDOWS\SYSTEM32\iertutil.dll
+Module: 00007FF8DF030000 00A000 version.dll      C:\WINDOWS\system32\version.dll
+Module: 00007FF8EA400000 1A1000 windowscodecs.dll C:\WINDOWS\system32\windowscodecs.dll
+Module: 00007FF8D6FA0000 4D7000 wininet.dll      C:\WINDOWS\system32\wininet.dll
+Module: 00007FF8ED160000 897000 windows.storage.dll C:\WINDOWS\SYSTEM32\windows.storage.dll
+Module: 00007FF8ECFC0000 193000 wintypes.dll     C:\WINDOWS\SYSTEM32\wintypes.dll
+
+Modules loaded later:
+Module: 00007FF8EE2D0000 018000 kernel.appcore.dll C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+Module: 00007FF8EF720000 079000 bcryptPrimitives.dll C:\WINDOWS\System32\bcryptPrimitives.dll
+Module: 00007FF8EFFC0000 135000 MSCTF.dll        C:\WINDOWS\System32\MSCTF.dll
+Module: 00007FF8EF160000 022000 profapi.dll      C:\WINDOWS\SYSTEM32\profapi.dll
+Module: 00007FF8EC7D0000 0FF000 PROPSYS.dll      C:\WINDOWS\SYSTEM32\PROPSYS.dll
+Module: 00007FF8EFC50000 0B0000 clbcatq.dll      C:\WINDOWS\System32\clbcatq.dll
+Module: 00007FF8E9DE0000 0B0000 TextShaping.dll  C:\WINDOWS\SYSTEM32\TextShaping.dll
+Module: 00007FF8DC1E0000 125000 textinputframework.dll C:\WINDOWS\SYSTEM32\textinputframework.dll
+Module: 00007FF8EB6A0000 136000 CoreMessaging.dll C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+Module: 00007FF8E9630000 36E000 CoreUIComponents.dll C:\WINDOWS\SYSTEM32\CoreUIComponents.dll
+Module: 00007FF8EEA20000 00C000 CRYPTBASE.DLL    C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL
+Module: 00007FF8E3050000 069000 Oleacc.dll       C:\WINDOWS\system32\Oleacc.dll
+Module: 00007FF8EEA00000 01B000 CRYPTSP.dll      C:\WINDOWS\SYSTEM32\CRYPTSP.dll
+Module: 00007FF8EE230000 034000 rsaenh.dll       C:\WINDOWS\system32\rsaenh.dll
+Module: 00007FF8EEBC0000 028000 bcrypt.dll       C:\WINDOWS\SYSTEM32\bcrypt.dll
+Module: 00007FF8DD610000 074000 thumbcache.dll   C:\Windows\System32\thumbcache.dll
+Module: 00007FF8D7D80000 10D000 Windows.System.Launcher.dll C:\Windows\System32\Windows.System.Launcher.dll
+Module: 00007FF8DFD10000 093000 msvcp110_win.dll C:\Windows\System32\msvcp110_win.dll
+Module: 00007FF8E22B0000 01A000 windows.staterepositorycore.dll C:\WINDOWS\SYSTEM32\windows.staterepositorycore.dll
+Module: 00007FF8EADF0000 268000 DWrite.dll       C:\WINDOWS\SYSTEM32\DWrite.dll
+Module: 00007FF8BA660000 032000 sendmail.dll     C:\WINDOWS\System32\sendmail.dll
+Module: 00007FF8DFDB0000 0A5000 policymanager.dll C:\WINDOWS\SYSTEM32\policymanager.dll
+Module: 00007FF8EEEF0000 04E000 CFGMGR32.dll     C:\WINDOWS\SYSTEM32\CFGMGR32.dll
+Module: 00007FF8BFCF0000 096000 Windows.FileExplorer.Common.dll C:\Windows\System32\Windows.FileExplorer.Common.dll
+Module: 00007FF8DBD40000 494000 windowsudk.shellcommon.dll C:\WINDOWS\system32\windowsudk.shellcommon.dll
+Module: 00007FF8E1E70000 0A5000 OneCoreCommonProxyStub.dll C:\Windows\System32\OneCoreCommonProxyStub.dll
+Module: 00007FF8C14D0000 054000 vaultcli.dll     C:\Windows\System32\vaultcli.dll
+Module: 00007FF8E21E0000 0CD000 Windows.StateRepositoryPS.dll C:\Windows\System32\Windows.StateRepositoryPS.dll
+Module: 00007FF8E2120000 03F000 windows.staterepositoryclient.dll C:\WINDOWS\SYSTEM32\windows.staterepositoryclient.dll
+Module: 00007FF8E1790000 01A000 NetworkExplorer.dll C:\WINDOWS\system32\NetworkExplorer.dll
+Module: 00007FF8DCA80000 028000 edputil.dll      C:\WINDOWS\SYSTEM32\edputil.dll
+Module: 00007FF8DC960000 02D000 cldapi.dll       C:\Windows\System32\cldapi.dll
+Module: 00007FF8EE550000 049000 SspiCli.dll      C:\WINDOWS\SYSTEM32\SspiCli.dll
+Module: 00007FF8EEAE0000 050000 Wldp.dll         C:\WINDOWS\SYSTEM32\Wldp.dll
+Module: 00007FF8DC840000 01D000 smartscreenps.dll C:\Windows\System32\smartscreenps.dll
+Module: 00007FF8DC760000 07B000 shdocvw.dll      C:\WINDOWS\SYSTEM32\shdocvw.dll
+Module: 00007FF8E82E0000 61B000 OneCoreUAPCommonProxyStub.dll C:\Windows\System32\OneCoreUAPCommonProxyStub.dll
+Module: 00007FF8E4950000 0B9000 twinui.appcore.dll C:\Windows\System32\twinui.appcore.dll
+Module: 00007FF8DB770000 113000 mrmcorer.dll     C:\WINDOWS\SYSTEM32\mrmcorer.dll
+Module: 00007FF8D9B20000 035000 bcp47mrm.dll     C:\WINDOWS\SYSTEM32\bcp47mrm.dll
+Module: 00007FF8E6110000 171000 Windows.UI.dll   C:\Windows\System32\Windows.UI.dll
+Module: 00007FF8E17B0000 017000 usermgrcli.dll   C:\WINDOWS\SYSTEM32\usermgrcli.dll
+Module: 00007FF8C0EA0000 102000 daxexec.dll      C:\WINDOWS\SYSTEM32\daxexec.dll
+Module: 00007FF8C0E50000 044000 container.dll    C:\Windows\System32\container.dll
+Module: 00007FF8EE8A0000 028000 USERENV.dll      C:\Windows\System32\USERENV.dll
+Module: 00007FF8BBB20000 01F000 licensemanagerapi.dll C:\WINDOWS\SYSTEM32\licensemanagerapi.dll
+Module: 00007FF8E2170000 060000 capauthz.dll     C:\WINDOWS\SYSTEM32\capauthz.dll
+Module: 00007FF8EE2F0000 034000 ntmarta.dll      C:\WINDOWS\SYSTEM32\ntmarta.dll
+Module: 00007FF8E1750000 01E000 MPR.dll          C:\WINDOWS\SYSTEM32\MPR.dll
+Module: 00007FF8C1110000 014000 execmodelproxy.dll C:\WINDOWS\system32\execmodelproxy.dll
+Module: 00007FF8E2030000 0E4000 Windows.ApplicationModel.dll C:\Windows\System32\Windows.ApplicationModel.dll
+
+
+-------- Log -----------------
+
+ReadRegStr(HKEY_LOCAL_MACHINE, Software\Microsoft\Windows\CurrentVersion\Uninstall\SumatraPDF, InstallLocation) => '(null)'
+ReadRegStr(HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Uninstall\SumatraPDF, InstallLocation) => '(null)'
+InstallCrashHandler crashDumpPath: 'K:\Textbooks\SumatraPDF-3.4.6-64\crashinfo\sumatrapdfcrash.dmp'
+crashFilePath: 'K:\Textbooks\SumatraPDF-3.4.6-64\crashinfo\sumatrapdfcrash.txt'
+symDir: 'K:\Textbooks\SumatraPDF-3.4.6-64\crashinfo'
+Starting SumatraPDF, GetCommandLineW():
+"K:\Textbooks\SumatraPDF-3.4.6-64\SumatraPDF-3.4.6-64.exe" 
+prefs::Load() took 1.18 ms
+ParseTranslationsTxt: 19181 lines, nStrings: 357
+StartMonitoringDirForChangesAPC() K:\Textbooks\SumatraPDF-3.4.6-64
+LoadDocument: 5.59 ms, 32 pages for 'K:\OneDrive - St. George's University\BPM 2\0.0BPM 2 Cum Resources\$_NB1 Wont Quit.pdf'
+DisplayModel::BuildPagesInfo started
+DisplayModel::BuildPagesInfo took 0.01 ms
+StartMonitoringDirForChangesAPC() K:\OneDrive - St. George's University\BPM 2\0.0BPM 2 Cum Resources
+prefs::Load() took 1.18 ms
+HandleDdeCmds: '[Open("H:\Neuro_Behavior Module\Review DOcs\Z2.2C N lesions.pdf", 0, 1, 0)]'
+LoadDocument: 240.49 ms, 9 pages for 'H:\Neuro_Behavior Module\Review DOcs\Z2.2C N lesions.pdf'
+DisplayModel::BuildPagesInfo started
+DisplayModel::BuildPagesInfo took 0.00 ms
+StartMonitoringDirForChangesAPC() H:\Neuro_Behavior Module\Review DOcs
+Slow rendering: 220.06 ms, page: 1 in 'H:\Neuro_Behavior Module\Review DOcs\Z2.2C N lesions.pdf'
+Slow rendering: 105.16 ms, page: 2 in 'H:\Neuro_Behavior Module\Review DOcs\Z2.2C N lesions.pdf'
+LoadDocument: 235.97 ms, 64 pages for 'H:\Neuro_Behavior Module\NB 2\Review\Maham's Golden Notes - Head & Neck.pdf'
+DisplayModel::BuildPagesInfo started
+DisplayModel::BuildPagesInfo took 0.01 ms
+StartMonitoringDirForChangesAPC() H:\Neuro_Behavior Module\NB 2\Review
+Slow rendering: 118.61 ms, page: 1 in 'H:\Neuro_Behavior Module\NB 2\Review\Maham's Golden Notes - Head & Neck.pdf'
+Slow rendering: 113.07 ms, page: 2 in 'H:\Neuro_Behavior Module\NB 2\Review\Maham's Golden Notes - Head & Neck.pdf'
+LoadDocument: 65.62 ms, 66 pages for 'H:\Neuro_Behavior Module\needawin\NB dump Combined_.pdf'
+DisplayModel::BuildPagesInfo started
+DisplayModel::BuildPagesInfo took 0.01 ms
+StartMonitoringDirForChangesAPC() H:\Neuro_Behavior Module\needawin
+LoadDocument: 211.91 ms, 197 pages for 'H:\Neuro_Behavior Module\ESoft\NB2 Esoft old.pdf'
+DisplayModel::BuildPagesInfo started
+DisplayModel::BuildPagesInfo took 0.02 ms
+MakePageElementCommentsFromAnnotations: annot 8 'Highlight', contents: '', label: 'jepst'
+MakePageElementCommentsFromAnnotations: annot 8 'Highlight', contents: '', label: 'jepst'
+MakePageElementCommentsFromAnnotations: annot 8 'Highlight', contents: '', label: 'jepst'
+MakePageElementCommentsFromAnnotations: annot 8 'Highlight', contents: '', label: 'jepst'
+StartMonitoringDirForChangesAPC() H:\Neuro_Behavior Module\ESoft
+MakePageElementCommentsFromAnnotations: annot 8 'Highlight', contents: '', label: 'jepst'
+MakePageElementCommentsFromAnnotations: annot 8 'Highlight', contents: '', label: 'jepst'
+MakePageElementCommentsFromAnnotations: annot 8 'Highlight', contents: '', label: 'jepst'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 8 'Highlight', contents: '', label: 'jepst'
+MakePageElementCommentsFromAnnotations: annot 8 'Highlight', contents: '', label: 'jepst'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 15 'Ink', contents: '', label: 'Joseph Epstein'
+MakePageElementCommentsFromAnnotations: annot 8 'Highlight', contents: '', label: 'jepst'
+MakePageElementCommentsFromAnnotations: annot 8 'Highlight', contents: '', label: 'jepst'
+MakePageElementCommentsFromAnnotations: annot 8 'Highlight', contents: '', label: 'jepst'
+MakePageElementCommentsFromAnnotations: annot 2 'FreeText', contents: 'Motor neuron', label: 'jepst'
+MakePageElementCommentsFromAnnotations: annot 2 'FreeText', contents: 'Motor neuron', label: 'jepst'
+LoadDocument: 42.05 ms, 43 pages for 'H:\Neuro_Behavior Module\Review DOcs\NB2 final.pdf'
+DisplayModel::BuildPagesInfo started
+DisplayModel::BuildPagesInfo took 0.01 ms
+Slow rendering: 299.70 ms, page: 1 in 'H:\Neuro_Behavior Module\Review DOcs\NB2 final.pdf'
+Slow rendering: 284.64 ms, page: 2 in 'H:\Neuro_Behavior Module\Review DOcs\NB2 final.pdf'
+HandleDdeCmds: '[Open("H:\Neuro_Behavior Module\Review DOcs\$$NB2 onit redux.pdf", 0, 1, 0)]'
+unknown link uri '(null)'
+LoadDocument: 34.24 ms, 49 pages for 'H:\Neuro_Behavior Module\Review DOcs\$$NB2 onit redux.pdf'
+DisplayModel::BuildPagesInfo started
+DisplayModel::BuildPagesInfo took 0.01 ms
+Slow rendering: 554.98 ms, page: 1 in 'H:\Neuro_Behavior Module\Review DOcs\$$NB2 onit redux.pdf'
+Slow rendering: 779.14 ms, page: 2 in 'H:\Neuro_Behavior Module\Review DOcs\$$NB2 onit redux.pdf'
+TabsSelect: tabIndex: 3, new win->currentTab: 0x0000027852FC5830, path: 'H:\Neuro_Behavior Module\needawin\NB dump Combined_.pdf'
+TabsSelect: tabIndex: 4, new win->currentTab: 0x0000027853D16E80, path: 'H:\Neuro_Behavior Module\ESoft\NB2 Esoft old.pdf'
+TabsSelect: tabIndex: 5, new win->currentTab: 0x000002785447F6E0, path: 'H:\Neuro_Behavior Module\Review DOcs\NB2 final.pdf'
+LoadDocument: 245.05 ms, 5 pages for 'H:\Neuro_Behavior Module\NB 2\Lectures\NB2 Psych.pdf'
+DisplayModel::BuildPagesInfo started
+DisplayModel::BuildPagesInfo took 0.00 ms
+StartMonitoringDirForChangesAPC() H:\Neuro_Behavior Module\NB 2\Lectures
+Slow rendering: 243.76 ms, page: 1 in 'H:\Neuro_Behavior Module\NB 2\Lectures\NB2 Psych.pdf'
+MakePageElementCommentsFromAnnotations: annot 8 'Highlight', contents: '', label: 'jepst'
+MakePageElementCommentsFromAnnotations: annot 8 'Highlight', contents: '', label: 'jepst'
+Slow rendering: 201.71 ms, page: 2 in 'H:\Neuro_Behavior Module\NB 2\Lectures\NB2 Psych.pdf'
+LoadDocument: 221.77 ms, 18 pages for 'H:\Neuro_Behavior Module\NB 2\Review\NB2 Topic Reviews.pdf'
+DisplayModel::BuildPagesInfo started
+DisplayModel::BuildPagesInfo took 0.00 ms
+Slow rendering: 139.82 ms, page: 2 in 'H:\Neuro_Behavior Module\NB 2\Review\NB2 Topic Reviews.pdf'
+Slow rendering: 123.56 ms, page: 1 in 'H:\Neuro_Behavior Module\NB 2\Review\NB2 Topic Reviews.pdf'
+HandleDdeCmds: '[Open("H:\Neuro_Behavior Module\Review DOcs\NB2 final.pdf", 0, 1, 0)]'
+TabsSelect: tabIndex: 5, new win->currentTab: 0x000002785447F6E0, path: 'H:\Neuro_Behavior Module\Review DOcs\NB2 final.pdf'
+HandleDdeCmds: '[Open("H:\Neuro_Behavior Module\Review DOcs\CN$.pdf", 0, 1, 0)]'
+LoadDocument: 372.91 ms, 24 pages for 'H:\Neuro_Behavior Module\Review DOcs\CN$.pdf'
+DisplayModel::BuildPagesInfo started
+DisplayModel::BuildPagesInfo took 0.01 ms
+Slow rendering: 114.11 ms, page: 1 in 'H:\Neuro_Behavior Module\Review DOcs\CN$.pdf'
+Slow rendering: 223.58 ms, page: 5 in 'H:\Neuro_Behavior Module\Review DOcs\CN$.pdf'
+Slow rendering: 100.79 ms, page: 6 in 'H:\Neuro_Behavior Module\Review DOcs\CN$.pdf'
+Slow rendering: 170.41 ms, page: 9 in 'H:\Neuro_Behavior Module\Review DOcs\CN$.pdf'
+TabsSelect: tabIndex: 1, new win->currentTab: 0x0000027852FC50B0, path: 'H:\Neuro_Behavior Module\Review DOcs\Z2.2C N lesions.pdf'
+
+
+----- Settings file ----------
+
+﻿# For documentation, see https://www.sumatrapdfreader.org/settings/settings3-4-6.html
+FixedPageUI [
+	TextColor = #000000
+	BackgroundColor = #ffffff
+	SelectionColor = #f5fc0c
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+	GradientColors = #2828aa #28aa28 #aa2828
+	HideScrollbars = false
+]
+ComicBookUI [
+	WindowMargin = 0 0 0 0
+	PageSpacing = 4 4
+	CbxMangaMode = false
+]
+ChmUI [
+	UseFixedPageUI = true
+]
+
+SelectionHandlers [
+]
+ExternalViewers [
+]
+
+ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
+ZoomIncrement = 0
+
+PrinterDefaults [
+	PrintScale = fit
+]
+ForwardSearch [
+	HighlightOffset = 0
+	HighlightWidth = 15
+	HighlightColor = #6581ff
+	HighlightPermanent = false
+]
+Annotations [
+	HighlightColor = #ffff00
+	UnderlineColor = #00ff00
+	TextIconColor = #ffff00
+	TextIconType = 
+	DefaultAuthor = 
+]
+
+RememberOpenedFiles = false
+RememberStatePerDocument = true
+RestoreSession = true
+UiLanguage = en
+EnableTeXEnhancements = true
+DefaultDisplayMode = single page
+DefaultZoom = fit page
+Shortcuts [
+]
+EscToExit = false
+ReuseInstance = false
+ReloadModifiedDocuments = true
+
+MainWindowBackground = #000000
+FullPathInTitle = false
+ShowMenubar = true
+ShowToolbar = true
+ShowFavorites = true
+ShowToc = true
+TocDy = 0
+SidebarDx = 437
+ToolbarSize = 18
+TabWidth = 200
+TreeFontSize = 30
+SmoothScroll = false
+ShowStartPage = true
+CheckForUpdates = true
+WindowState = 1
+WindowPos = -9 0 1453 1504
+UseTabs = true
+UseSysColors = true
+CustomScreenDPI = 183
+
+FileStates [
+	[
+		FilePath = K:\OneDrive - St. George's University\BPM 2\0.0BPM 2 Cum Resources\$$_NB1 Wont Quit.pdf
+		Favorites [
+			[
+				Name = NB1
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = true
+	]
+	[
+		FilePath = E:\OneDrive - American University of the Caribbean School of Medicine\Keiff\American Academy of Pediatrics textbook of pediatric care (Thomas K. McInerny (editor)) (z-lib.org).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\Psych\American Academy of Pediatrics Textbook of Pediatric Care (Thomas K. McInerny, Henry M. Adam etc.) (z-lib.org).chm
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\NB 2\Review\Maham's Golden Notes - Head & Neck.pdf
+		Favorites [
+			[
+				Name = Head and Neck
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\needawin\NB dump Combined_.pdf
+		Favorites [
+			[
+				Name = NB2 dump
+				PageNo = 24
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\ESoft\NB2 Esoft old.pdf
+		Favorites [
+			[
+				Name = NB ESoft Quiz 7.pdf
+				PageNo = 37
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Review DOcs\NB2 final.pdf
+		Favorites [
+			[
+				Name = NB2 final
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\NB 2\Lectures\NB2 Psych.pdf
+		Favorites [
+			[
+				Name = Psych
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\NB 2\Review\NB2 Topic Reviews.pdf
+		Favorites [
+			[
+				Name = SGU NB2 Topic rev
+				PageNo = 1
+			]
+			[
+				PageNo = 14
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Review DOcs\The CNs.pdf
+		Favorites [
+			[
+				Name = Cranial Review
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\jepst\OneDrive - St. George's University\BPM 2\NB\Lectures\week 14.pdf
+		Favorites [
+			[
+				Name = Speech
+				PageNo = 28
+			]
+			[
+				Name = thought process
+				PageNo = 34
+			]
+			[
+				Name = Operant Extinction
+				PageNo = 103
+			]
+			[
+				Name = Behavior therapy
+				PageNo = 105
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\needawin\MASTER.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\kioskUser0\Documents\The CNs.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Review\Neuro Gold Notes_Complete (large notes packet).pdf
+		Favorites [
+			[
+				Name = TOC
+				PageNo = 1
+				PageLabel = i
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Textbooks\Psych\CURRENT Diagnosis  Treatment Psychiatry, Second Edition (LANGE CURRENT Series) (Michael H. Ebert, Peter T. Loosen etc.) (z-lib.org).chm
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Review DOcs\CN lesions.pdf
+		Favorites [
+			[
+				Name = Lesions
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Review DOcs\NB2 onit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Review DOcs\NB2 onit.pdf
+		Favorites [
+			[
+				Name = NB2
+				PageNo = 1
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Review DOcs\NB2.pdf
+		Favorites [
+			[
+				Name = NB 2 Consolidated
+				PageNo = 2
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\NB 2\ITI And Clickers\NB51-52.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\NB 2\Review\Consolidate NB2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\NB 2\Lectures\Week 11_12 (NB2).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = H:\Neuro_Behavior Module\Lectures\Weekly lectures S21\Neuroimaging.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\jepst\OneDrive - St. George's University\BPM 2\NB\Lectures\week 14.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = true
+	]
+]
+SessionData [
+]
+TimeOfLastUpdateCheck = 0 0
+OpenCountWeek = 610
+
+# Settings below are not recognized by the current version

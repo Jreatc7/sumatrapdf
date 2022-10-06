@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\docs",
+    "\\mupdf",
+    "\\mupdf\\platform",
+    "\\mupdf\\platform\\win32",
+    "\\packages",
+    "\\packages\\Microsoft.Web.WebView2.1.0.992.28",
+    "\\packages\\Microsoft.Web.WebView2.1.0.992.28\\runtimes",
+    "\\packages\\Microsoft.Web.WebView2.1.0.992.28\\runtimes\\win-arm64",
+    "\\packages\\Microsoft.Web.WebView2.1.0.992.28\\runtimes\\win-arm64\\native"
+  ],
+  "PreviewInSolutionExplorer": false
+}
