@@ -1,0 +1,8 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "ext\\zlib\\out\\build\\x64-Debug",
+      "ext\\zlib\\out\\install\\x64-Debug"
+    ]
+  }
+}
